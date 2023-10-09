@@ -35,11 +35,11 @@ Use these results to analyze the performance of different reducer implementation
 16-inch, 2021 MBP results with Apple M1 Pro chip:
 
 | Test case | Timing (sec) | Memory usage (Mb) |
-| --- | --- | --- | --- |
+|---|---|---|
 | Multiple assigments ON HEAP | 2.436770042 | 19.33014 |
-| Multiple assigments PLAIN STRUCT | 2.381588167 *(-2.5%)* | 16.923828 *(-12%)* |
-| Single assigments ON HEAP | 0.169398917 *(-93%)* | 14.814514 *(-23%)* |
-| Single assigments PLAIN STRUCT | 0.116925916 *(-95%)* | 14.783142 *(-23.5%)* |
+| Multiple assigments PLAIN STRUCT | 2.381588167 (-2.5%) | 16.923828 (-12%) |
+| Single assigment ON HEAP | 0.169398917 *(-93%)* | 14.814514 *(-23%)* |
+| Single assigment PLAIN STRUCT | 0.116925916 *(-95%)* | 14.783142 *(-23.5%)* |
 
 ## Configuration
 
