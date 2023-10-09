@@ -32,6 +32,15 @@ Have fun!
 The test results will be displayed in the console, including memory usage and execution time for each test run. 
 Use these results to analyze the performance of different reducer implementations.
 
+16-inch, 2021 MBP results with Apple M1 Pro chip:
+
+| Test case | Timing (sec) | Memory usage (Mb) |
+| --- | --- | --- | --- |
+| Multiple assigments ON HEAP | 2.436770042 | 19.33014 |
+| Multiple assigments PLAIN STRUCT | 2.381588167 *(-2.5%)* | 16.923828 *(-12%)* |
+| Single assigments ON HEAP | 0.169398917 *(-93%)* | 14.814514 *(-23%)* |
+| Single assigments PLAIN STRUCT | 0.116925916 *(-95%)* | 14.783142 *(-23.5%)* |
+
 ## Configuration
 
 1. There is an option to log addresses. In could be enabled in `Stores.swift` file by changing `Logging` options.
